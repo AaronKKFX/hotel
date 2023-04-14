@@ -1,0 +1,54 @@
+#batata{
+    width: 100px;
+}
+nav{
+    background-color: grey;
+}
+footer
+{
+    float: inline-start;
+    background-color: gray;
+}
+  
+  h1, h2 {
+    text-align: center;
+  }
+.cafe{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left:350px;
+    margin-right:350px;
+    float:inline-start;
+    text-align: left ;
+  }
+.almoco{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left:350px;
+    margin-right:350px;
+    float:inline-start;
+    text-align: left ;
+}
+.jantar{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left:350px;
+    margin-right:350px;
+    float:inline-start;
+    text-align: left ;
+}
+img{
+    margin-right: 3%;
+}

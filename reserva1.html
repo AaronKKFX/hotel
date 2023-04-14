@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Hotel Piracicaba</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-light bg-gradiente">
+        <div>
+            <img src="img/Batatinha.png" class="rounded-circle mr-3" alt="Logo do site" id="batata">
+            <a class="navbar-brand text-dark">Batatinha Hotel</a>
+        </div>
+   
+        <ul class="nav" >
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html" >Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="cardapio.html">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html">Hotéis</a>
+          </ul>
+      </nav>
+</header>
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/card-2.jpg" alt="hotel2">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-dark text-center my-3">
+                <h1 id="cadastro">Informações</h1>
+            </div>
+            <div class="card-body" style="border: 2px solid black; border-radius: 1em;background-color: darkgrey;">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title">Geral</h2>
+                  <ul class="list-group">
+                    <li class="list-group-item"  style="background-color: lightgray;">Quartos 1-4 pessoas</li>
+                    <h3>Serviços Inclusos:</h3>
+                    <li class="list-group-item"  style="background-color: lightgray;">Limpeza de quarto</li>
+                    <li class="list-group-item"  style="background-color: lightgray;">Frigobar</li>
+                    <li class="list-group-item"  style="background-color: lightgray;">Roupas de cama e banho</li>
+                    <li class="list-group-item"  style="background-color: lightgray;">Café da manhã</li>
+                    <h3>Serviços não inclusos:</h3>
+                    <li class="list-group-item"  style="background-color: lightgray;">Restaurante</li>
+                    <li class="list-group-item"  style="background-color: lightgray;">Bar 24h(com entrega no quarto)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+    </section>
+          <section>
+            <div class="container">
+              <div class="row">
+                  <div class="col-sm-12 text-dark text-center my-3">
+                      <h1 id="cadastro">Reserva</h1>
+                  </div>
+                  <div class="card-body" style="border: 2px solid black; border-radius: 1em;background-color: darkgrey;">
+                    <div class="input-group mb-3 m-2">
+                      <label class="input-group-text" for="inputGroupSelect01">Para quantas pessoas será a reserva</label>
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Escolha...</option>
+                        <option value="1">Uma</option>
+                        <option value="2">Duas</option>
+                        <option value="3">Três</option>
+                        <option value="4">Quatro</option>
+                      </select>
+                    </div>
+                    <div class="input-group mb-3 m-2">
+                      <label class="input-group-text" for="inputGroupSelect01">Você gostaria de nosso serviço de Restaurante</label>
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Escolha...</option>
+                        <option value="1">Sim</option>
+                        <option value="2">Não</option>
+                      </select>
+                    </div>
+                    <div class="input-group mb-3 m-2">
+                      <label class="input-group-text" for="inputGroupSelect01">Você gostaria de nosso serviço de Bar 24 horas</label>
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Escolha...</option>
+                        <option value="1">Sim</option>
+                        <option value="2">Não</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationCustom01" class="form-label" style="font-size: large;">Qual será a data de estadia?</label>
+                      <input type="text" class="form-control" id="validationCustom01" value="xx/xx/xx" required>
+                      <div class="valid-feedback">
+                        Temos quartos disponveis
+                      </div>
+                    <button class="btn btn-outline-secondary mt-2" type="button" style="background-color: lightgray;">Forma de pagamento</button>
+                    </div>
+                    </div>
+                  </div>
+          </section>
+    <footer>
+        <div class="container-fluid bg-gradiente p-5 mt-5">
+          <div class="row">
+            <div class="col-sm-12  text-center">
+              <p class="mb-0">Todos os direitos reservados por Aaron K.H.C Kanashiro, Andrus N. Roman, Larissa G. FArquete,
+                 Sophia P. de Oliveira e Tainá R. Oliveira.</p>
+            </div>
+    </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+    </html>
